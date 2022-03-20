@@ -5,7 +5,7 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
+        "How are you?",
         "Is anyone there?",
         "Hello",
         "Good day"
@@ -14,70 +14,66 @@
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "Welcome to AICTE chat bot"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "See you", "Bye bye"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "It was pleasure to help you",
+        "Helping you was my pleasure",
+        "Thank you for talking to AICTE chat bot"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thanks a lot", "Thank you doctor", "Thank you for your help", "Thank you"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "Helping you was my pleasure"]
     },
+
     {
-      "tag": "items",
+      "tag": "q1",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Where I can find the information related to Approval Process 2020-21",
+        "Approval Process 2020-21",
+        "Approval Process",
+        "approval process",
+        "How to get approval",
+        "approval information"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Information related to Approval Process 2020-21 available on AICTE Website's Home page>Quick Links>Approval Process 2020-21"
+      ]
+    },
+
+    {
+      "tag": "q2",
+      "patterns": [
+        "How can I get New User-id and password (login credentials) for AICTE Web Portal?",
+        "new user id and password",
+        "credentials for AICTE web portal",
+        "login credentials",
+        "new user registration"
+      ],
+      "responses": [
+        "Please click on Sign Up link on AICTE Web-portal or go to link http://portal.aicteindia.org/partnerportal_enu. User Manual for Obtaining USERNAME and PASSWORD @https://aicte-india.org/bureaus/approval/ap_2020-21"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "q3",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "I am not able to generate report?",
+        "generate report",
+        "How to generate report",
+        "Not able to get reports"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Please refer “User Manual for Report Generation” to generate Reports",
+        "You can refer to User Manual for Report Generation"
       ]
     }
   ]
